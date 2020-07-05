@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+nav {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    line-height: 80px;
+}
+
+nav ul li {
+    padding-right: 10px;
+    padding-left: 10px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.center-nav {
+    padding-left: 16%;
+    padding-right: 16%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: larger;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;
+}
+
+.page-heading {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu {
+    padding: 2%;
+}
+
+.page-info {
+    font-size: 28px;
+    text-align: center;
+}
+
+.menu-parent {
+    padding-top: 5%;
+    width: 95%;
+    margin-right: 10px;
+    float: left;
+}
+
+.menu-card {
+    float: left;
+    width: 45%;
+    height: 200px;
+    margin-right: 5%;
+}
+
+.menu-title {
+    font-size: 22px;
+}
+
+.menu-price {
+    font-size: 22px;
+    text-align: right;
+    float: right;
+}
+
+.menu-description {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.form-wrapper {
+    padding: 5%;
+}
+
+.form {
+    margin-top: 50px;
+}
+
+.form-input {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid lightgrey;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-select {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 320px;
+    height: 42px;
+    border: 1px solid lightgrey;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-submit {
+    margin-top: 10px;
+    margin-left: 320px;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
